@@ -1,7 +1,11 @@
+import Login from '../components/auth';
+
 export default function Host() {
   return (
     <div>
-      <h1>Host</h1>
+      <Login>
+        <h1>Host</h1>
+      </Login>
     </div>
   );
 }
