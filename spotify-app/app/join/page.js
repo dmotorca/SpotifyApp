@@ -11,7 +11,7 @@ const generateRandomString = (length) => {
 
 export default function Join() {
   const CLIENT_ID = '58a23b901352485697345c998a02d1f8';
-  const REDIRECT_URI = 'http://localhost:3000';
+  const REDIRECT_URI = 'http://localhost:3000/host';
   const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize';
   const RESPONSE_TYPE = 'token';
 
