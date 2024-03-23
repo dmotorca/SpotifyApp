@@ -19,14 +19,19 @@
     ],
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "target": "ES2017",
+    "downlevelIteration": true
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/components/display.js"
+    "app/components/display.js",
+    "app/api/user/route.js",
+    "app/components/playlists.js",
+    "app/api/get-spotify-token/route.ts"
   ],
   "exclude": ["node_modules"]
 }
